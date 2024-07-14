@@ -1,3 +1,5 @@
+using Microsoft.EntityFrameworkCore;
+
 namespace PieShop.Models;
 
 public static class DbInitializer
@@ -6,7 +8,9 @@ public static class DbInitializer
     {
         PieShopDbContext context = applicationBuilder.ApplicationServices
             .CreateScope().ServiceProvider.GetRequiredService<PieShopDbContext>();
-
+        
+        context.Database.Migrate();
+        
         if (!context.Categories.Any())
         {
             context.Categories.AddRange(Categories.Select(c => c.Value));
