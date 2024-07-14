@@ -1,0 +1,27 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "PieShop", "PieShop\PieShop.csproj", "{97388766-4235-4F5A-A2DD-EFDB1AB2DA96}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Solution Items", "Solution Items", "{30AC852C-AD8E-4C4C-82A0-0E868FC59C6C}"
+	ProjectSection(SolutionItems) = preProject
+		docker-compose.yml = docker-compose.yml
+	EndProjectSection
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "PieShopTests", "PieShopTests\PieShopTests.csproj", "{821344C2-197C-47C8-BCFD-EE6BCBB479CF}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{97388766-4235-4F5A-A2DD-EFDB1AB2DA96}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{97388766-4235-4F5A-A2DD-EFDB1AB2DA96}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{97388766-4235-4F5A-A2DD-EFDB1AB2DA96}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{97388766-4235-4F5A-A2DD-EFDB1AB2DA96}.Release|Any CPU.Build.0 = Release|Any CPU
+		{821344C2-197C-47C8-BCFD-EE6BCBB479CF}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{821344C2-197C-47C8-BCFD-EE6BCBB479CF}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{821344C2-197C-47C8-BCFD-EE6BCBB479CF}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{821344C2-197C-47C8-BCFD-EE6BCBB479CF}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+EndGlobal
